@@ -237,6 +237,9 @@ span {
        align-items: center;
     }
 
+    .form-input {
+        width: 100% !important;
+    }
     
     .overlay {
         display: none;
