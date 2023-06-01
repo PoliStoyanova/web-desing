@@ -1,0 +1,280 @@
+:root {
+    --main-color: orange;
+    --main-second-color: #e97e29;           
+ }
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+h1, h2,h3, h4, h5, h5, p, ul, div, body, html, img {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.main-btn {
+    border: 1px solid var(--main-color);
+    border-radius: 25px;
+    color: var(--main-color);
+}
+
+.second-btn {
+    border: 1px solid var(--main-color);
+    border-radius: 25px;
+    background: var(--main-color);
+    width: 7rem;
+}
+
+.why-us-btn {
+    border: 1px solid var(--main-color);
+    border-radius: 25px;
+    background: white;
+    color: black;
+    width: 13rem;
+}
+
+.search-btn {
+    background: #8a1253;
+    width: 9rem;
+}
+
+span {
+    color: orange;
+    font-weight: bold;
+    font-size: 2rem;
+} 
+
+.text-bg-light {
+    width: 60%;
+    box-shadow: black;
+}
+
+/*Menu*/
+.navbar {
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-img {
+    width: 3rem !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+/*Menu End*/
+
+/*Header*/ 
+
+.title {
+    padding-top: 10rem;
+}
+
+.title h1 {
+    color: var(--main-color);
+}
+
+.fs-1 {
+    color: var(--main-second-color);
+    font-weight: bold;
+}
+
+/*Header End*/
+
+/*Price*/
+.price-name {
+    background: var(--main-color);
+    color: white;
+}
+
+.price-price {
+    background: var(--main-second-color);
+    color: white;
+}
+/*Price End*/
+
+/*Why us?*/ 
+.why-us {
+    background: var(--main-color);
+    color: white;
+}
+
+.why-us-colum {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.why-us i {
+    font-size: 40px;
+}
+/*Why us? End*/
+
+/*What customer say*/
+.pesho {
+    width: 70%;
+    height: 180px;
+    border-left: 10px solid #e97e29;
+    padding-left: 10px;
+}
+
+.customer-body {
+    border: 2px solid silver;
+}
+/*What customer say End*/
+
+/*Contact us*/
+.form {
+    background: orange;
+}
+
+.form-input {
+    width: 75%;
+}
+
+.map-section-one {
+    background: orange;
+}
+
+.overlay {
+    width: 49.3%;
+    height: 62%;
+    position: absolute;
+    background: black;
+    opacity: 0.15;
+}
+
+.bulgaria-map {
+    display: none;
+}
+/*Contact us End*/
+
+/*Footer*/
+.footer {
+    background: orange;
+    color: white;
+}
+/*Footer*/
+
+
+
+@media (max-width: 768px) {
+    /*Menu*/
+    .navbar-img {
+        width: 6rem !important;
+    }
+
+    .nav-link {
+        color: orange;
+    }
+    /*Menu End*/
+
+    /*Header*/
+    .top {
+        background: #e9eefc;
+    }
+
+    .header, .title {
+        text-align: center;
+        margin-bottom: 120px;
+    }
+
+     h1 {
+        font-size: 50px;
+    }
+
+    .bg-jpg {
+        display: none !important;
+    }
+    /*Header End*/
+
+    /*Search*/
+    .search {
+        top: 37rem;
+    }
+    /*Search End*/
+
+    /*Motivation*/
+    .motivation-title {
+        text-align: left !important;
+    }
+    /*Motivation End*/
+
+    /*Price*/
+    .price-title p {
+        text-align: left;
+    }
+    /*Price End*/
+
+    /*What customer say*/
+    .customer-title {
+        text-align: left;
+        padding-bottom: 25px;
+    }
+    
+    /*What customer say End*/
+
+    /*Contact us*/
+    .map-section-one {
+        display: none !important;
+    }
+
+    .form {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+    
+    .overlay {
+        display: none;
+    }
+
+    .bulgaria-map {
+        display: inline !important;
+    }
+
+    .map-section-two {
+        background: orange;
+    }
+
+    .map-section-two iframe {
+        width: 100%;
+        height: 50vh;
+    }
+    /*Contact us End*/
+
+    /*Footer*/
+    .footer {
+        text-align: center !important;
+    }
+
+    .for-us {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .news {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news-mail {
+        width: 100%;
+    }
+    /*Footer End*/
+}
